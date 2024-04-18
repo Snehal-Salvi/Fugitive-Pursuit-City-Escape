@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# Fugitive Pursuit: City Escape
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a full-stack web application called "Fugitive Pursuit: City Escape" developed using React for the frontend and Node.js for the backend.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Choose Cities: Players can select from neighboring cities where the fugitive might be hiding.
+- Choose Vehicles: Players can pick vehicles with varying capabilities to aid in their pursuit.
+- Find Criminal: Utilizing clues and strategic thinking, players must locate the fugitive within the chosen city.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ```
+   git clone https://github.com/your-username/weather-api.git
+   ```
 
-### `npm test`
+2. Install frontend dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+cd client
+npm install
+```
 
-### `npm run build`
+3. 3. Install backend dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+cd server
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. 4. Start the frontend and backend servers:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm start
 
-### `npm run eject`
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Frontend:
+- React
+- CSS Modules
+- Backend:
+- Node.js
+- Express
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## APIs
 
-## Learn More
+- `GET /api/players`: Fetches data of available players (cops).
+- `GET /api/cities`: Fetches data of available cities.
+- `GET /api/vehicles`: Fetches data of available vehicles.
+- `GET /api/assignCriminal`: Assigns a criminal location for the game.
+- `POST /api/calculateGameResult`: Calculates the game result based on player actions.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Approach
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The development of Fugitive Pursuit followed a structured approach to ensure scalability, maintainability, and a seamless gaming experience. Here's an overview of the approach taken:
 
-### Code Splitting
+### 1. Planning and Design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Requirements Gathering**: Identified key features and functionalities based on the game concept.
 
-### Analyzing the Bundle Size
+- **Data Design**: Designed the data schema to efficiently store game data such as player information, cities, vehicles, and game progress.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 2. Frontend Development
 
-### Making a Progressive Web App
+- **Component-based Architecture**: Implemented a modular structure using React components to promote reusability and maintainability.
+- **Responsive Design**: Ensured compatibility across various devices and screen sizes for an optimal user experience.
+- **Styling**: Utilized CSS Modules for scoped styling, enhancing code organization and reducing styling conflicts.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 3. Backend Development
 
-### Advanced Configuration
+- **RESTful API Design**: Designed clear and consistent API endpoints for communication between the frontend and backend.
+- **Middleware**: Implemented middleware functions for request processing, such as parsing JSON bodies and enabling CORS.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 4. Testing
 
-### Deployment
+- **Unit Testing**: Conducted unit tests for both frontend and backend components to validate functionality and identify potential bugs.
+- **Integration Testing**: Tested API endpoints and database interactions to ensure seamless communication and data integrity.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 5. Deployment
 
-### `npm run build` fails to minify
+- **Scalability Considerations**: Deployed the application on scalable platform.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Authors
+
+- [@Snehal](https://github.com/Snehal-Salvi)
