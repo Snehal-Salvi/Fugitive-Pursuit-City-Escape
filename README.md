@@ -2,6 +2,11 @@
 
 This is a full-stack web application called "Fugitive Pursuit: City Escape" developed using React for the frontend and Node.js for the backend.
 
+# Deployment Link
+```
+https://yocket-assignment-nw8g.onrender.com
+```
+
 ## Features
 
 - Choose Cities: Players can select from neighboring cities where the fugitive might be hiding.
