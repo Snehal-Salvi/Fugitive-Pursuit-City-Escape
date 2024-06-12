@@ -5,11 +5,6 @@ This is a full-stack web application called "Fugitive Pursuit: City Escape" deve
 # Demo
 https://github.com/Snehal-Salvi/yocket-assg/assets/125987932/a372b1d8-6fe6-4769-b46e-f57efcf48caa
 
-# Deployment Link
-```
-https://yocket-assignment-nw8g.onrender.com
-```
-
 ## Features
 
 - Choose Cities: Players can select from neighboring cities where the fugitive might be hiding.
