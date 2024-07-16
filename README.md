@@ -2,10 +2,6 @@
 
 This is a full-stack web application called "Fugitive Pursuit: City Escape" developed using React for the frontend and Node.js for the backend.
 
-## Deployment Link
-
-[Fugitive Pursuit: City Escape](https://669666a2588c7d8568bd8d72--eloquent-peony-5178c3.netlify.app)
-
 ## Features
 
 - Choose Cities: Players can select from neighboring cities where the fugitive might be hiding.
@@ -14,11 +10,7 @@ This is a full-stack web application called "Fugitive Pursuit: City Escape" deve
 
 ## Installation
 
-1. Clone the repository:
-
-   ```
-   git clone https://github.com/your-username/weather-api.git
-   ```
+1. Clone the repository.
 
 2. Install frontend dependencies:
 

@@ -1,1 +1,1 @@
-export const BACKEND_URL = "https://fugitive-pursuit-city-escape.onrender.com"
+export const BACKEND_URL = "http://localhost:5000"
