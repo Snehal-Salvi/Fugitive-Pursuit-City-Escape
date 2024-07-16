@@ -2,6 +2,10 @@
 
 This is a full-stack web application called "Fugitive Pursuit: City Escape" developed using React for the frontend and Node.js for the backend.
 
+## Deployment Link
+
+[Fugitive Pursuit: City Escape](https://669666a2588c7d8568bd8d72--eloquent-peony-5178c3.netlify.app)
+
 ## Features
 
 - Choose Cities: Players can select from neighboring cities where the fugitive might be hiding.
@@ -23,14 +27,14 @@ cd client
 npm install
 ```
 
-3. 3. Install backend dependencies:
+3. Install backend dependencies:
 
 ```
 cd server
 npm install
 ```
 
-4. 4. Start the frontend and backend servers:
+4. Start the frontend and backend servers:
 
 ```
 npm start
